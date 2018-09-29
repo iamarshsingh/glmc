@@ -59,7 +59,7 @@ float glmc_vec2f_length(vec2f vec){
 
 int  glmc_vec2f_is_normalized(vec2f src){
 	
-	if (glmc_vec2f_length(src)==1){
+	if (((int)glmc_vec2f_length(src))==1){
         return 1;
     }
     else return 0;
